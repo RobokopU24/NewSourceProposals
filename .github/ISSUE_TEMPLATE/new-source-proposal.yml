@@ -49,9 +49,10 @@ body:
       placeholder: e.g., This dataset would expand coverage of metabolite–gene interactions in cancer biology.
 
   - type: input
-    id: other-proponent
+    id: proponent
     attributes:
       label: Proponent
+      description: How was this source brought to our attention?
       placeholder: e.g., “Translator Listserv discussion”, "John Smith", "Conference Presentation", "Manuscript"
 
   - type: input
@@ -93,3 +94,10 @@ body:
     attributes:
       label: "If you selected Other above, please specify below:"
       placeholder: e.g., Cell Line, Pathogen, etc.
+
+   - type: textarea
+    id: additional-info
+    attributes:
+      label: Additional Information
+      description: Please provide any additional information that you think is relevant to the DMOG review. 
+      placeholder: e.g., This source has been cited in recent rare disease mechanism studies and supports tissue-specific annotations. It also offers a public API that could be used for automated updates.
