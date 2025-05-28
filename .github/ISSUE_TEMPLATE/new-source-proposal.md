@@ -15,21 +15,19 @@ This serves as the entry point for evaluating a new source for potential inclusi
 ## Findable
 
 **Source Name**  
-_Full name and acronym if applicable_  
-<!-- e.g., Comparative Toxicogenomics Database (CTD) -->
+<!-- Full name and acronym if applicable e.g., Comparative Toxicogenomics Database (CTD) -->
 
 
 **Description**  
-_Short summary of the source’s purpose and content_  
-<!-- Enter Description below -->
+<!-- Short summary of the source’s purpose and content  -->
+
 
 **Maintainer**  
-_Individual or organization responsible for the source_  
-<!-- Enter Mainter below -->
+<!--  Individual or organization responsible for the source  -->
 
 
 **Proponent**  
-_How was this brought to our attention?_  
+<!-- How was this brought to our attention? -->
 - [ ] Collaborator (please specify):
 - [ ] Manuscript  
 - [ ] Conference Presentation  
@@ -40,20 +38,20 @@ _How was this brought to our attention?_
 ## Accessible
 
 **Access Mechanism**  
-_Link(s) to access the data (website, API, download page, etc.)_  
-<!-- Enter Link below -->
+<!-- Link(s) to access the data (website, API, download page, etc.) -->
+
 
 **License**  
-_Include license name and note any restrictions (e.g., CC-BY 4.0, CC0, etc.)_  
+<!-- Include license name and note any restrictions (e.g., CC-BY 4.0, CC0, etc.) -->
 > ⚠️ ROBOKOP currently does **not** ingest sources that are proprietary, require payment, or impose restrictive access terms.
-<!-- Enter License below -->
+
 
 ---
 
 ## Interoperable
 
 **Biological Levels Covered**  
-_Check all that apply:_  
+<!-- Check all that apply -->
 - [ ] Small Molecule / Drug  
 - [ ] Protein / Gene / Nucleic Acid  
 - [ ] Organelle / Cell  
@@ -65,16 +63,14 @@ _Check all that apply:_
 - [ ] Other (please specify):
 
 **Proposed Impact**  
-_What benefit would the inclusion of this source provide?_  
-<!-- Enter Proposed Impact below -->
+<!-- What benefit would the inclusion of this source provide? -->
 
 ---
 
 ## Reusable
 
 **Use-Case Driven?**  
-_If this source supports a specific use case, provide the GitHub repo # and brief context._  
+<!--  If this source supports a specific use case, provide the GitHub repo # and brief context. -->
 Use-case Repo #: 
-<!-- Enter Use-case link below -->
 
 <!-- Enter Proposed Impact below -->
