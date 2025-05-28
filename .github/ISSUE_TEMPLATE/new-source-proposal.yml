@@ -1,8 +1,8 @@
-name: New Source Porposal
+name: New Source Proposal
 description: Submit a new data source for evaluation by the DMOG team
 title: "[New Source] Add <SOURCE NAME>"
 labels: ["source-review", "triage"]
-assignees: []
+assignees: [eKathleenCarter]
 
 body:
   - type: markdown
@@ -55,6 +55,7 @@ body:
     attributes:
       label: Other Proponent or Name of Collaborator (if selected)
       placeholder: e.g., “Translator Listserv discussion”, "John Smith"
+
   ####################################
   # ACCESSIBLE
   ####################################
