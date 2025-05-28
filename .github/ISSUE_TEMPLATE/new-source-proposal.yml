@@ -8,7 +8,6 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Instructions
         Please fill out as much information as possible about the proposed source. This form supports evaluation based on FAIR principles (Findable, Accessible, Interoperable, Reusable).
         You do not need to complete every field — enter what you know and link to additional information where possible.
 
