@@ -41,6 +41,13 @@ body:
       description: If this source supports a specific ROBOKOP use case, please link to the exact issue in the Use-Cases repo and briefly describe the connection.
       placeholder: e.g., https://github.com/RobokopU24/Use-Cases/issues/1 — expands coverage for rare disease phenotype mapping
 
+  - type: textarea
+    id: impact
+    attributes:
+      label: Proposed Impact
+      description: What benefit would the inclusion of this source provide?
+      placeholder: e.g., This dataset would expand coverage of metabolite–gene interactions in cancer biology.
+
   - type: input
     id: other-proponent
     attributes:
@@ -84,12 +91,5 @@ body:
   - type: input
     id: other-bio-level
     attributes:
-      label: "_If you selected **Other** above, please specify below:_"
+      label: "If you selected "Other" above, please specify below:"
       placeholder: e.g., Cell Line, Pathogen, etc.
-
-  - type: textarea
-    id: impact
-    attributes:
-      label: Proposed Impact
-      description: What benefit would the inclusion of this source provide?
-      placeholder: e.g., This dataset would expand coverage of metabolite–gene interactions in cancer biology.
