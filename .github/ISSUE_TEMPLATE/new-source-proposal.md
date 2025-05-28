@@ -8,7 +8,7 @@ assignees: eKathleenCarter
 ---
 
 ## Instructions: 
-This serves as the entry point for evaluating a new source for potential inclusion in ROBOKOP. It does not need to be filled out completely, but please provide as much information as possible. Content may be copied and pasted from the source’s website, documentation, or publications. These fields support the evaluation of the source’s alignment with FAIR principles (Findable, Accessible, Interoperable, Reusable).
+This serves as the entry point for evaluating a new source for potential inclusion in ROBOKOP. It does not need to be filled out completely, but please provide as much information as possible. These fields support the evaluation of the source’s alignment with FAIR principles (Findable, Accessible, Interoperable, Reusable).
 
 ---
 
