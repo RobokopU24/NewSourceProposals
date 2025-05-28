@@ -1,5 +1,5 @@
 ---
-name: New Source Proposal
+name: New Source Proposal (for markdown users)
 about: This issue is the start of a new source's assessment
 title: "[SOURCE REQUEST] <short name of source>"
 labels: under review
