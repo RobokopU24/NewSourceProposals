@@ -91,5 +91,5 @@ body:
   - type: input
     id: other-bio-level
     attributes:
-      label: "If you selected "Other" above, please specify below:"
+      label: "If you selected Other above, please specify below:"
       placeholder: e.g., Cell Line, Pathogen, etc.
