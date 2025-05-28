@@ -1,4 +1,4 @@
-name: 🧪 New Source Review
+name: New Source Porposal
 description: Submit a new data source for evaluation by the DMOG team
 title: "[New Source] Add <SOURCE NAME>"
 labels: ["source-review", "triage"]
@@ -8,7 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## 📋 Instructions
+        ## Instructions
         Please fill out as much information as possible about the proposed source. This form supports evaluation based on FAIR principles (Findable, Accessible, Interoperable, Reusable).
         You do not need to complete every field — enter what you know and link to additional information where possible.
 
@@ -19,7 +19,7 @@ body:
   - type: input
     id: source-name
     attributes:
-      label: 🔍 Source Name
+      label: Source Name
       description: Full name and acronym, if applicable
       placeholder: e.g., Comparative Toxicogenomics Database (CTD)
     validations:
@@ -49,7 +49,12 @@ body:
         - Manuscript
         - Conference Presentation
         - Other
-
+        
+  - type: input
+    id: other-proponent
+    attributes:
+      label: Other Proponent or Name of Collaborator (if selected)
+      placeholder: e.g., “Translator Listserv discussion”, "John Smith"
   ####################################
   # ACCESSIBLE
   ####################################
@@ -70,7 +75,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        > ⚠️ **Note**: ROBOKOP currently does not ingest sources that are proprietary, require payment, or impose restrictive access terms.
+        > ⚠️ **Note**: ROBOKOP currently does not ingest proprietary sources, require payment, or impose restrictive access terms.
 
   ####################################
   # INTEROPERABLE
@@ -102,16 +107,16 @@ body:
     id: impact
     attributes:
       label: Proposed Impact
-      description: What benefit would inclusion of this source provide?
+      description: What benefit would the inclusion of this source provide?
       placeholder: e.g., This dataset would expand coverage of metabolite–gene interactions in cancer biology.
 
   ####################################
   # REUSABLE
   ####################################
 
-  - type: input
-    id: use-case
-    attributes:
-      label: Use-case Driven?
-      description: If linked to a specific use case, include GitHub Repo # or brief context
-      placeholder: e.g., related to rare disease use case in `robokop/rare-disease-tracker`
+ - type: input
+  id: use-case
+  attributes:
+    label: Use-case Link (if applicable)
+    description: If this source supports a specific ROBOKOP use case, please link to the exact issue in the Use-Cases repo and briefly describe the connection.
+    placeholder: e.g., https://github.com/RobokopU24/Use-Cases/issues/1 — expands coverage for rare disease phenotype mapping
