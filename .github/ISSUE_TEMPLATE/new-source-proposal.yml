@@ -95,7 +95,7 @@ body:
       label: "If you selected Other above, please specify below:"
       placeholder: e.g., Cell Line, Pathogen, etc.
 
-   - type: textarea
+  - type: textarea
     id: additional-info
     attributes:
       label: Additional Information
