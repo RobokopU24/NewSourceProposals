@@ -98,13 +98,10 @@ body:
         - label: Environmental Exposure
         - label: Other (please specify below)
         
-  - type: markdown
-    attributes:
-      value: "_If you selected **Other** above, please specify below:_"
-      
   - type: input
     id: other-bio-level
     attributes:
+      label: "_If you selected **Other** above, please specify below:_"
       placeholder: e.g., Cell Line, Pathogen, etc.
 
   - type: textarea
