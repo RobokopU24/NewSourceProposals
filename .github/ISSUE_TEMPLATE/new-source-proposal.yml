@@ -97,11 +97,14 @@ body:
         - label: Disease / Phenotype
         - label: Environmental Exposure
         - label: Other (please specify below)
-
+        
+  - type: markdown
+    attributes:
+      value: "_If you selected **Other** above, please specify below:_"
+      
   - type: input
     id: other-bio-level
     attributes:
-      label: Other Biological Level (if selected)
       placeholder: e.g., Cell Line, Pathogen, etc.
 
   - type: textarea
