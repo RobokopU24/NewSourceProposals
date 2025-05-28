@@ -1,6 +1,6 @@
 name: New Source Proposal
 description: Submit a new data source for evaluation by the DMOG team
-title: "[New Source] Add <SOURCE NAME>"
+title: "[New Source] <SOURCE NAME>"
 labels: ["source-review", "triage"]
 assignees: [eKathleenCarter]
 
